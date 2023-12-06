@@ -1,0 +1,78 @@
+h1{
+  text-align: center;
+  margin-top: 40px;
+}
+.all{
+    margin: 10px;
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.contactForm{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 40px;
+    padding-left:40px ;
+   
+}
+.Box{
+    border-radius: 50px;
+    background: rgba(40, 41, 41, 0.986);
+    margin-left: 40px;
+    width: 90vw;
+    max-width: 40rem;
+    
+}
+.Box:hover{
+    box-shadow: 0 3px 6px white;
+    transform: translate(0px,-8px);
+
+}
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    
+}
+.Links{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    width: 90vw;
+    max-width: 40rem;
+    padding: 40px;
+    padding-left:20px ;
+    border-radius: 40px;
+    background:rgba(40, 41, 41, 0.986);
+    justify-content: space-between; 
+    
+}
+.b{
+  max-width: 10rem; 
+  
+  
+}
+.Links:hover{
+    box-shadow: 0 3px 6px white;
+    transform: translate(0px,-8px);
+}
+.submitBtn{
+    background: color;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+
+}

@@ -1,0 +1,68 @@
+.Blogg{
+box-sizing: border-box;
+text-overflow: ellipsis;
+}
+
+.blogbox{
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+ display: flex;
+ flex-direction:row;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+
+
+
+}
+.blogboxall{
+
+background:rgba(40, 41, 41, 0.986);
+border-radius: 20px;
+
+width: 30%;
+overflow: hidden;
+vertical-align: middle;
+
+align-items: center;
+word-wrap: break-word;
+
+
+
+
+}
+.blogtxt{
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+
+.blogimg1{
+    object-fit: cover;
+    width: 19rem;
+    height: 15rem;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.blogimg2{
+    object-fit: cover;
+    width: 19rem;
+    height: 15rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.blogimg3{
+    object-fit: cover;
+    width: 19rem;
+    height: 15rem;
+    margin-top: 10px;
+    border-radius: 10px;
+}

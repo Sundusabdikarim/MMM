@@ -1,0 +1,57 @@
+.navbar{
+    height:5rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top :0;
+    z-index: 3;
+
+}
+.profileImg{
+height: 5rem;
+border-radius: 50px;
+object-fit: cover;
+
+
+
+
+
+}
+.desktopMenuListItem{
+    margin:1rem;
+    cursor: pointer;
+    /* padding: 0 1rem; */
+   
+    align-items:self-end;
+}
+.desktopMenuListItem:hover{
+    color: aqua;
+    padding-bottom: 0.5rem;
+    border-bottom: 8px solid aqua;
+    
+}
+.desktopMenuBtn{
+    background: white;
+    color:black;
+    border:none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius :2rem; 
+    
+
+}
+.desktopMenuImg{
+width: 30px;
+margin-right: 10px;
+}
+.active{
+    color: aqua;
+}
+
+    

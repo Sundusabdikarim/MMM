@@ -1,0 +1,108 @@
+#works{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.Text{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.projects{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-self: normal;
+    justify-content: start;
+  border-radius: 10px;
+  
+
+}
+.projectText{
+    overflow: hidden;
+}
+
+.project{
+    display: grid;
+    box-sizing: border-box;
+    width: 60%;
+    background:rgba(40, 41, 41, 0.986);
+    box-shadow: white;
+    padding: 2rem 2rem;
+    
+    border-radius: 20px;
+    box-shadow: 0 0 35px rgb(20, 39, 16);
+    overflow: hidden;
+    max-width: 20rem;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    margin :20px
+    
+}
+
+.projectImg1{
+    object-fit: cover;
+    height: 15rem;
+    width: 16rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projectImg1:hover{
+    box-shadow: 0 3px 6px white;
+transform: scale(0.75);
+}
+
+.projectImg2{
+    object-fit: cover;
+    height: 15rem;
+    width: 16rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: whitesmoke;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.projectImg2:hover{
+    box-shadow: 0 3px 6px white;
+    transform: scale(0.75);
+}
+
+.projectImg3{
+    object-fit: cover;
+    height: 15rem;
+    width: 16rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projectImg3:hover{
+    box-shadow: 0 3px 6px white;
+    transform: scale(0.75);
+}
+.projectImg4{
+    object-fit: cover;
+    height: 15rem;
+    width: 16rem;
+    border-radius: 20px;
+    margin-left: auto;
+   margin-right: auto;
+    box-sizing: border-box;
+    background: whitesmoke;
+    
+    
+}
+.projectImg4:hover{
+    box-shadow: 0 3px 6px white;
+    transform: scale(0.75);
+}
+
